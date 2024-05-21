@@ -18,6 +18,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/l23',function(){
+Route::get('/l283',function(){
     return response()->json('initialised');
 });
